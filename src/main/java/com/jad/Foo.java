@@ -27,10 +27,7 @@ public class Foo implements IFoo{
         return this.qux;
     }
 
-    public void setCorge() {
-        if (this.corge != corge) {
-            this.corge.setFoo(null);
-        }
+    public void setCorge(ICorge corge) {
         this.corge = corge;
     }
 
