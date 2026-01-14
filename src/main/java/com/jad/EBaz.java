@@ -6,6 +6,10 @@ public enum EBaz implements IBaz{
     BAZ3("Baz3"),
     ;
 
+    public String getName() {
+        return this.name;
+    }
+
     private String name;
 
     EBaz(String name) {
